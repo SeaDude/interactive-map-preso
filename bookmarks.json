@@ -1,0 +1,95 @@
+[
+    {
+        "title": "Marker Example",
+        "type": "marker",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-74.0060, 40.7128]
+        },
+        "content": {
+            "type": "video",
+            "title": "Sample Video",
+            "url": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        },
+        "tile_layer": "Esri Satellite",
+        "zoom": 12
+    },
+    {
+        "title": "Line Example",
+        "type": "line",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-0.1278, 51.5074], 
+                [2.3522, 48.8566] 
+            ]
+        },
+        "content": {
+            "type": "text",
+            "title": "Sample Line",
+            "text": "This is a line from London to Paris."
+        },
+        "style": {
+            "color": "blue",
+            "weight": 5,
+            "opacity": 0.7
+        },
+        "tile_layer": "Dark Matter",
+        "zoom": 5
+    },
+    {
+        "title": "Polygon Example",
+        "type": "polygon",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [-122.414, 37.776], 
+                    [-122.414, 37.788],
+                    [-122.402, 37.788], 
+                    [-122.402, 37.776], 
+                    [-122.414, 37.776] 
+                ]
+            ]
+        },
+        "content": {
+            "type": "text",
+            "title": "Sample Polygon",
+            "text": "This is a polygon in San Francisco."
+        },
+        "style": {
+            "fillColor": "red",
+            "color": "red",
+            "weight": 2,
+            "fillOpacity": 0.5
+        },
+        "tile_layer": "OpenStreetMap",
+        "zoom": 13
+    },
+    {
+        "title": "Polyline Example",
+        "type": "line",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [-118.2437, 34.0522],
+                [-117.1611, 32.7157],
+                [-112.0740, 33.4484],
+                [-106.6504, 35.0844],
+                [-104.9903, 39.7392]
+            ]
+        },
+        "content": {
+            "type": "text",
+            "title": "West Coast Polyline",
+            "text": "This polyline connects several cities in the western United States."
+        },
+        "style": {
+            "color": "green",
+            "weight": 4,
+            "opacity": 0.8
+        },
+        "tile_layer": "Esri Satellite",
+        "zoom": 5
+    }
+]
